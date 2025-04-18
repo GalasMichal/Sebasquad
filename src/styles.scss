@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$bg: #02010c;
+$alpha: 0.85;
+
+html,
+body {
+    height: 100%;
+    background-color: rgba($bg, $alpha);
+}
